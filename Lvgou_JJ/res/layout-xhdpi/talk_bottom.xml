@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="#F4F4F4" >
+
+    <ImageButton
+        android:id="@+id/chatting_setmode_voice_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/chatting_setmode_voice_btn" />
+
+    <EditText
+        android:id="@+id/chatting_edittext"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/chatting_setmode_voice_btn"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/type_select_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/chatting_edittext"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/type_select_btn" />
+
+</RelativeLayout>
